@@ -1,0 +1,12 @@
+body {
+    padding: 30px;
+    font-family: consolas, Courier New, Courier, monospace;
+}
+
+.placeholder{
+    height: 250px;
+    width: 300px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin: 5px;
+}
