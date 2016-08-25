@@ -1,12 +1,30 @@
 body {
     padding: 30px;
     font-family: consolas, Courier New, Courier, monospace;
+    background-color: white;
 }
 
-.placeholder{
-    height: 250px;
-    width: 300px;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    margin: 5px;
+#lastName, .tech{
+    color: cadetblue;
+    font-weight: bold;
 }
+
+.left-hand-nav{
+    background-color: white;
+}
+
+footer{padding: 10px;}
+
+
+.thumbnail{
+    height: 375px;
+    background-color: white;
+
+}
+
+.project-picture{
+    background-color: whitesmoke;
+    height: 35%;
+}
+
+img{width: 50%;}
