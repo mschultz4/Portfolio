@@ -13,28 +13,28 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 left-hand-nav">
-
-                <h4><span>Test</span><span id="lastName">World</span></h4>
-                <p>Some text here lorum ipsum or something.</p>
-                <nav>
-                    <ul class="nav nav-pills nav-stacked">
-                        <li role="presentation" class="active"><a href="#">Home</a></li>
-                        <li role="presentation"><a href="#">Profile</a></li>
-                        <li role="presentation"><a href="#">Messages</a></li>
-                    </ul>
-                </nav>
-                <a href="http://www.google.com">
-                    <i class="fa fa-stack-overflow fa-lg" aria-hidden="true"></i>
-                </a>
-                <a href="http://www.google.com">
-                    <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
-                </a>
-                <a href="http://www.google.com">
-                    <i class="fa fa-github fa-lg" aria-hidden="true"></i>
-                </a>
-
+                <div>
+                    <h4><span>Test</span><span id="lastName">World</span></h4>
+                    <h5>Full stack javascript developer.  Node lover.  Python acquaintance.</h5>
+                </div>
+                <ul class="nav nav-stacked">
+                    <li role="presentation" class="active"><a href="#">Portfolio</a></li>
+                    <li role="presentation"><a href="#">About</a></li>
+                    <li role="presentation"><a href="#">Contact</a></li>
+                </ul>
+                <div class="btn-group" role="group">
+                    <a href="https://stackoverflow.com/users/3323691/?tab=profile" target="_blank" class="btn" role="button">
+                        <i class="fa fa-stack-overflow fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <a href="http://www.google.com" class="btn" target="_blank" role="button">
+                        <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <a href="http://www.google.com" class="btn" target="_blank" role="button">
+                        <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                    </a>
+                </div>
             </div>
-            <div class="col-md-4 left-hand-nav">
+            <div class="col-md-4 " id="main">
                 <div class="thumbnail">
                     <div class="project-picture">
                         <i class="fa fa-book fa-3x" aria-hidden="true"></i>
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="thumbnail">
-                    <img src="./tictactoe.svg" alt="...">
+                    <img src="example.svg" alt="...">
                     <h5>Minimax TicTacToe</h5>
                     <div class="caption">
                         <p>Tic Tac Toe Application</p>
@@ -115,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 left-hand-nav">
+            <div class="col-md-4 ">
                 <div class="thumbnail">
                     <div class="project-picture">
                         <div class="placeholder"></div>
@@ -164,8 +164,13 @@
             </footer>
 
         </div>
+        <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+        <script src="https://npmcdn.com/react@15.3.0/dist/react.js"></script>
+        <script src="https://npmcdn.com/react-dom@15.3.0/dist/react-dom.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="port.js"></script>
+
 </body>
 
 

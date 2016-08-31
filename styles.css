@@ -5,12 +5,13 @@ body {
 }
 
 #lastName, .tech{
-    color: cadetblue;
+    color: cornflowerblue;
     font-weight: bold;
 }
 
 .left-hand-nav{
     background-color: white;
+     
 }
 
 footer{padding: 10px;}
@@ -28,3 +29,11 @@ footer{padding: 10px;}
 }
 
 img{width: 50%;}
+
+.nav{
+    margin: 4px;
+}
+
+h5{
+    color: dimgray; 
+}
