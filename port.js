@@ -1,10 +1,13 @@
 "use strict";
 
+var React = require('react');
+var ReactDOM = require('react-dom');
+
 var Main = React.createClass({
     getInitialState: function(){
         return {
             show : 'portfolio'
-        }
+        };
     },
     render: function (){
         if(this.state.show === 'portfolio'){
@@ -22,15 +25,15 @@ var Main = React.createClass({
 });
 
 function Portfolio(){
-    <div>Portfolio</div>
+   return <div>Portfolio</div>;
 }
 
 function About(){
-    <div>About</div>
+    return <div>About</div>;
 }
 
 function Contact(){
-    <div>Contact</div>
+   return <div>Contact</div>;
 }
 
 
