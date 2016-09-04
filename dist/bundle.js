@@ -94,11 +94,13 @@
 	        return React.createElement(
 	            "div",
 	            { className: "row" },
-	            React.createElement(LeftHandNav, null),
+	            React.createElement(LeftHandNav, { onClick: this._handleNavClick }),
 	            main
 	        );
 	    },
-	    _handleMenuClick: function _handleMenuClick(item) {
+	    _handleNavClick: function _handleNavClick(event) {
+	        var item = event.target.id;
+	        console.log(event.target);
 	        this.setState({ show: item });
 	    }
 	});
@@ -154,7 +156,7 @@
 	                        "Learning App for storing recipes. Built with..."
 	                    ),
 	                    React.createElement(
-	                        "p",
+	                        "div",
 	                        null,
 	                        React.createElement(
 	                            "ul",
@@ -464,7 +466,7 @@
 
 	"use strict";
 	
-	function leftHandNav() {
+	function leftHandNav(props) {
 	    return React.createElement(
 	        "div",
 	        { className: "col-md-4 left-hand-nav" },
@@ -499,7 +501,7 @@
 	                { role: "presentation", className: "active" },
 	                React.createElement(
 	                    "a",
-	                    { href: "#" },
+	                    { id: "portfolio", onClick: props.onClick, href: "#" },
 	                    "Portfolio"
 	                )
 	            ),
@@ -508,7 +510,7 @@
 	                { role: "presentation" },
 	                React.createElement(
 	                    "a",
-	                    { href: "#" },
+	                    { id: "about", onClick: props.onClick, href: "#" },
 	                    "About"
 	                )
 	            ),
@@ -517,7 +519,7 @@
 	                { role: "presentation" },
 	                React.createElement(
 	                    "a",
-	                    { href: "#" },
+	                    { id: "contact", onClick: props.onClick, href: "#" },
 	                    "Contact"
 	                )
 	            )

@@ -11,7 +11,7 @@ function Portfolio(){
                     </div>
                     <div className="caption">
                         <p>Learning App for storing recipes. Built with...</p>
-                        <p>
+                        <div>
                             <ul className="list-unstyled">
                                 <li>
                                     <span className="tech">React</span> for views
@@ -37,7 +37,7 @@ function Portfolio(){
                                 </a>
                                 <a href="#" className="btn btn-default" role="button">Live</a>
                             </div>
-                        </p>
+                        </div>
                     </div>
                 </div>
                 <div className="thumbnail">

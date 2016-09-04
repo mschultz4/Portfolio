@@ -1,4 +1,4 @@
-function leftHandNav(){
+function leftHandNav(props){
     return (
 
             <div className="col-md-4 left-hand-nav">
@@ -7,9 +7,9 @@ function leftHandNav(){
                     <h5>Full stack javascript developer.  Node lover.  Python acquaintance.</h5>
                 </div>
                 <ul className="nav nav-stacked">
-                    <li role="presentation" className="active"><a href="#">Portfolio</a></li>
-                    <li role="presentation"><a href="#">About</a></li>
-                    <li role="presentation"><a href="#">Contact</a></li>
+                    <li role="presentation" className="active"><a id="portfolio" onClick={props.onClick} href="#">Portfolio</a></li>
+                    <li role="presentation"><a id="about" onClick={props.onClick} href="#">About</a></li>
+                    <li role="presentation" ><a id="contact" onClick={props.onClick} href="#">Contact</a></li>
                 </ul>
                 <div className="btn-group" role="group">
                     <a href="https://stackoverflow.com/users/3323691/?tab=profile" target="_blank" className="btn" role="button">

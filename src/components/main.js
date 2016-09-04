@@ -28,12 +28,14 @@ var Main = React.createClass({
         
         return (
             <div className="row">
-                <LeftHandNav/>
+                <LeftHandNav onClick={this._handleNavClick}/>
                 {main}
             </div>
         );
     },
-    _handleMenuClick: function(item){
+    _handleNavClick: function(event){
+        var item = event.target.id;
+        console.log(event.target);
         this.setState({show: item});
     }
 });
