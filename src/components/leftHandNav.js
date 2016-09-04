@@ -3,7 +3,7 @@ function leftHandNav(props){
 
             <div className="col-md-4 left-hand-nav">
                 <div>
-                    <h4><span>Matt</span><span id="lastName">Schultz</span></h4>
+                    <h4><span>Matt </span><span id="lastName">Schultz</span></h4>
                     <h5>Full stack javascript developer.  Node lover.  Python acquaintance.</h5>
                 </div>
                 <ul className="nav nav-stacked">

@@ -453,7 +453,7 @@
 	function about() {
 	    return React.createElement(
 	        "div",
-	        null,
+	        { className: "col-md-8" },
 	        "About"
 	    );
 	}
@@ -479,7 +479,7 @@
 	                React.createElement(
 	                    "span",
 	                    null,
-	                    "Matt"
+	                    "Matt "
 	                ),
 	                React.createElement(
 	                    "span",
