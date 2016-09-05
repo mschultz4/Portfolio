@@ -23,6 +23,7 @@
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-react": "^6.11.1",
     "html-webpack-plugin": "^2.22.0",
+    "react-bootstrap": "^0.30.3",
     "webpack": "^1.13.2"
   },
   "dependencies": {

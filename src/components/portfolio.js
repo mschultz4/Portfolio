@@ -1,7 +1,10 @@
-function Portfolio(){ return (
+var Row = require('react-bootstrap').Row;
+var Col = require('react-bootstrap').Col;
 
-<div>
-    <div className="col-md-4 ">
+function Portfolio(){ 
+    return (
+<Row>
+    <Col md={6}>
         <div className="thumbnail">
             <div className="project-picture">
                 <i className="fa fa-book fa-3x" aria-hidden="true"></i>
@@ -81,8 +84,8 @@ function Portfolio(){ return (
                 </div>
             </div>
         </div>
-    </div>
-    <div className="col-md-4 ">
+    </Col>
+    <Col md={6}>
         <div className="thumbnail">
             <div className="project-picture">
                 <div className="placeholder"></div>
@@ -123,8 +126,8 @@ function Portfolio(){ return (
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </Col>
+</Row>
 );}
 
 module.exports = Portfolio;
