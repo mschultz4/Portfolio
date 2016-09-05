@@ -4,31 +4,34 @@ body {
     background-color: white;
 }
 
-#lastName, .tech{
+footer {
+    padding: 10px;
+}
+
+img {
+    width: 50%;
+}
+
+h5 {
+    color: dimgray;
+}
+
+#lastName,
+.tech {
     color: cornflowerblue;
     font-weight: bold;
 }
 
-.left-hand-nav{
+.left-hand-nav {
     background-color: white;
-     
 }
 
-footer{padding: 10px;}
-
-
-.thumbnail{
+.thumbnail {
     background-color: white;
-    height: 100%;
+    height: 450px;
 }
 
-.project-picture{
+.project-picture {
     background-color: whitesmoke;
     height: 35%;
-}
-
-img{width: 50%;}
-
-h5{
-    color: dimgray; 
 }

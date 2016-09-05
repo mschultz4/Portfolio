@@ -1,6 +1,6 @@
 function about(){
     return (
-        <p>About</p>
+    <p>About</p>
 );}
 
 module.exports = about;

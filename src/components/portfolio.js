@@ -3,9 +3,10 @@ var Col = require('react-bootstrap').Col;
 
 function Portfolio(){ 
     return (
-<Row>
-    <Col md={6}>
-        <div className="thumbnail">
+<div>
+    <Row>
+        <Col md={6}>
+        <div className="thumbnail span6">
             <div className="project-picture">
                 <i className="fa fa-book fa-3x" aria-hidden="true"></i>
                 <h5>RecipeBox</h5>
@@ -41,7 +42,9 @@ function Portfolio(){
                 </div>
             </div>
         </div>
-        <div className="thumbnail">
+        </Col>
+        <Col md={6}>
+        <div className="thumbnail span6">
             <img src="tictactoe.svg" alt="..." />
             <h5>Minimax TicTacToe</h5>
             <div className="caption">
@@ -71,20 +74,9 @@ function Portfolio(){
                 </div>
             </div>
         </div>
-        <div className="thumbnail">
-            <div className="project-picture">
-                <div className="placeholder"></div>
-            </div>
-            <div className="caption">
-                <div className="text-center">
-                    <a href="http://www.google.com">
-                        <i className="fa fa-github fa-lg" aria-hidden="true"></i>
-                    </a>
-                    <a href="#" className="btn btn-default" role="button">Live</a>
-                </div>
-            </div>
-        </div>
-    </Col>
+        </Col>
+    </Row>
+    <Row>
     <Col md={6}>
         <div className="thumbnail">
             <div className="project-picture">
@@ -99,6 +91,8 @@ function Portfolio(){
                 </div>
             </div>
         </div>
+        </Col>
+    <Col md={6}>
         <div className="thumbnail">
             <div className="project-picture">
                 <div className="placeholder"></div>
@@ -112,6 +106,25 @@ function Portfolio(){
                 </div>
             </div>
         </div>
+        </Col>
+    </Row>
+    <Row>
+    <Col md={6}>
+        <div className="thumbnail">
+            <div className="project-picture">
+                <div className="placeholder"></div>
+            </div>
+            <div className="caption">
+                <div className="text-center">
+                    <a href="http://www.google.com">
+                        <i className="fa fa-github fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" className="btn btn-default" role="button">Live</a>
+                </div>
+            </div>
+        </div>
+        </Col>
+    <Col md={6}>
         <div className="thumbnail">
             <div className="project-picture">
                 <div className="placeholder">
@@ -126,8 +139,9 @@ function Portfolio(){
                 </div>
             </div>
         </div>
-    </Col>
-</Row>
+        </Col>
+    </Row>
+</div>
 );}
 
 module.exports = Portfolio;
