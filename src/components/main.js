@@ -34,7 +34,11 @@ var Main = React.createClass({
             <Grid>
                 <Row>    
                     <Col md={4}>
-                        <LeftHandNav onClick={this._handleNavClick} activeKey={this.state.show}/>
+                        <LeftHandNav 
+                            onClick={this._handleNavClick} 
+                            activeKey={this.state.show}
+                            className="left-hand-nav"
+                        />
                     </Col>
                     <Col md={8}>
                         {main}

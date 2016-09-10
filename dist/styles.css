@@ -22,8 +22,10 @@ h5 {
     font-weight: bold;
 }
 
-.left-hand-nav {
-    background-color: white;
+#left-hand-nav {
+    position: fixed;
+    height: 100%;
+    width: 25%;
 }
 
 .thumbnail {
