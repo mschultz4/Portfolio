@@ -37,7 +37,6 @@ var Main = React.createClass({
                         <LeftHandNav 
                             onClick={this._handleNavClick} 
                             activeKey={this.state.show}
-                            className="left-hand-nav"
                         />
                     </Col>
                     <Col md={8}>

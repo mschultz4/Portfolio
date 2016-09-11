@@ -106,8 +106,7 @@
 	                    { md: 4 },
 	                    React.createElement(LeftHandNav, {
 	                        onClick: this._handleNavClick,
-	                        activeKey: this.state.show,
-	                        className: "left-hand-nav"
+	                        activeKey: this.state.show
 	                    })
 	                ),
 	                React.createElement(

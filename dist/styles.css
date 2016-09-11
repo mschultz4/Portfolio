@@ -28,6 +28,10 @@ h5 {
     width: 25%;
 }
 
+#left-hand-nav a:hover{
+    background-color: red;
+}
+
 .thumbnail {
     background-color: white;
     height: 450px;
@@ -36,4 +40,17 @@ h5 {
 .project-picture {
     background-color: whitesmoke;
     height: 35%;
+}
+
+@media (max-width: 767px) {
+    #left-hand-nav{
+        position:static;
+        width:auto;
+    }
+}
+
+@media (max-width: 979px) {
+    #left-hand-nav{
+        top:70px;
+    }
 }
