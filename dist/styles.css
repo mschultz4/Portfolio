@@ -29,7 +29,6 @@ h5 {
 }
 
 #left-hand-nav a:hover{
-    background-color: red;
 }
 
 .thumbnail {
@@ -37,6 +36,17 @@ h5 {
     height: 450px;
 }
 
+ .thumbnail-footer{
+     position: absolute;
+     bottom: 30px;
+     text-align: center;
+     width: 100%;
+ }
+ 
+ .thumbnail-footer a {
+     margin: 0px 5px;
+ }
+ 
 .project-picture {
     background-color: whitesmoke;
     height: 35%;

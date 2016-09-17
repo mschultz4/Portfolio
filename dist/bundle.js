@@ -278,7 +278,7 @@
 	                React.createElement(
 	                    'div',
 	                    { className: 'thumbnail span6' },
-	                    React.createElement('img', { src: 'tictactoe.svg', alt: '...' }),
+	                    React.createElement('img', { src: 'tictactoe.svg', alt: '...', className: 'project-picture' }),
 	                    React.createElement(
 	                        'h5',
 	                        null,
@@ -379,20 +379,44 @@
 	                        React.createElement('div', { className: 'placeholder' })
 	                    ),
 	                    React.createElement(
+	                        'h5',
+	                        null,
+	                        'color-randomizer'
+	                    ),
+	                    React.createElement(
 	                        'div',
 	                        { className: 'caption' },
+	                        React.createElement(
+	                            'p',
+	                            null,
+	                            'npm package for generating random colors'
+	                        ),
+	                        React.createElement(
+	                            'p',
+	                            null,
+	                            ' to use',
+	                            React.createElement(
+	                                'code',
+	                                null,
+	                                React.createElement(
+	                                    'pre',
+	                                    null,
+	                                    'npm install color-randomizer'
+	                                )
+	                            )
+	                        ),
 	                        React.createElement(
 	                            'div',
 	                            { className: 'text-center' },
 	                            React.createElement(
 	                                'a',
-	                                { href: 'http://www.google.com' },
+	                                { href: 'https://github.com/mschultz4/color-randomizer' },
 	                                React.createElement('i', { className: 'fa fa-github fa-lg', 'aria-hidden': 'true' })
 	                            ),
 	                            React.createElement(
 	                                'a',
-	                                { href: '#', className: 'btn btn-default', role: 'button' },
-	                                'Live'
+	                                { href: 'https://www.npmjs.com/package/color-randomizer' },
+	                                'npm'
 	                            )
 	                        )
 	                    )
@@ -414,7 +438,7 @@
 	                        { className: 'caption' },
 	                        React.createElement(
 	                            'div',
-	                            { className: 'text-center' },
+	                            { className: 'text-center thumbnail-footer' },
 	                            React.createElement(
 	                                'a',
 	                                { href: 'http://www.google.com' },

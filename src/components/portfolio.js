@@ -45,7 +45,7 @@ function Portfolio(){
         </Col>
         <Col md={6}>
         <div className="thumbnail span6">
-            <img src="tictactoe.svg" alt="..." />
+            <img src="tictactoe.svg" alt="..." className="project-picture" />
             <h5>Minimax TicTacToe</h5>
             <div className="caption">
                 <p>Tic Tac Toe Application</p>
@@ -82,12 +82,17 @@ function Portfolio(){
             <div className="project-picture">
                 <div className="placeholder"></div>
             </div>
+            <h5>color-randomizer</h5>
             <div className="caption">
+                <p>npm package for generating random colors</p>
+                <p> to use
+                 <code><pre>npm install color-randomizer</pre></code>
+                </p>
                 <div className="text-center">
-                    <a href="http://www.google.com">
+                    <a href="https://github.com/mschultz4/color-randomizer">
                         <i className="fa fa-github fa-lg" aria-hidden="true"></i>
                     </a>
-                    <a href="#" className="btn btn-default" role="button">Live</a>
+                    <a href="https://www.npmjs.com/package/color-randomizer" >npm</a>
                 </div>
             </div>
         </div>
@@ -98,7 +103,7 @@ function Portfolio(){
                 <div className="placeholder"></div>
             </div>
             <div className="caption">
-                <div className="text-center">
+                <div className="text-center thumbnail-footer">
                     <a href="http://www.google.com">
                         <i className="fa fa-github fa-lg" aria-hidden="true"></i>
                     </a>
