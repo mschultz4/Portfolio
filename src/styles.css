@@ -4,32 +4,63 @@ body {
     background-color: white;
 }
 
-#lastName, .tech{
+footer {
+    padding: 10px;
+}
+
+img {
+    width: 50%;
+}
+
+h5 {
+    color: dimgray;
+}
+
+#lastName,
+.tech {
     color: cornflowerblue;
     font-weight: bold;
 }
 
-.left-hand-nav{
-    background-color: white;
-     
+#left-hand-nav {
+    position: fixed;
+    height: 100%;
+    width: 25%;
 }
 
-footer{padding: 10px;}
-
-
-.thumbnail{
-    height: 375px;
-    background-color: white;
-
+#left-hand-nav a:hover{
 }
 
-.project-picture{
+.thumbnail {
+    background-color: white;
+    height: 450px;
+}
+
+ .thumbnail-footer{
+     position: absolute;
+     bottom: 30px;
+     text-align: center;
+     width: 100%;
+ }
+ 
+ .thumbnail-footer a {
+     margin: 0px 5px;
+ }
+ 
+.project-picture {
     background-color: whitesmoke;
     height: 35%;
 }
 
-img{width: 50%;}
+@media (max-width: 767px) {
+    #left-hand-nav{
+        position:static;
+        width:auto;
+    }
+}
 
-h5{
-    color: dimgray; 
+@media (max-width: 979px) {
+    #left-hand-nav{
+        top:70px;
+    }
 }

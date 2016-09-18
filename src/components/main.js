@@ -44,7 +44,7 @@ var Main = React.createClass({
                     </Col>
                 </Row>
                 <Row>
-                    <footer>
+                    <footer class="footer navbar-fixed-bottom">
                         <p className="text-center"><em>this site crafted from scratch by Matt</em></p>
                     </footer>
                 </Row>
