@@ -5,7 +5,7 @@ function leftHandNav(props){
     return (
         <div id="left-hand-nav">
             <div>
-                <h4><span>Matt </span><span id="lastName">Schultz</span></h4>
+                <h4>Matt Schultz</h4>
                 <h5>Full stack javascript developer.  Node lover.  Python acquaintance.</h5>
             </div>
               <Nav bsStyle="pills" stacked activeKey={props.activeKey} onSelect={props.onClick}>

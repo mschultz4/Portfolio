@@ -16,16 +16,21 @@ h5 {
     color: dimgray;
 }
 
-#lastName,
-.tech {
-    color: cornflowerblue;
-    font-weight: bold;
+.nav > li > a{
+  padding:3px; 
+  border-radius: 0px;
+    cursor: auto;
+}
+
+.nav > li {
+  padding:3px; 
 }
 
 #left-hand-nav {
     position: fixed;
     height: 100%;
     width: 25%;
+    
 }
 
 #left-hand-nav a:hover{
