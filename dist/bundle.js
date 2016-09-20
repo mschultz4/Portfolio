@@ -157,9 +157,8 @@
 	                    React.createElement(
 	                        'div',
 	                        { className: 'project-picture' },
-	                        React.createElement('i', { className: 'fa fa-book fa-3x', 'aria-hidden': 'true' }),
 	                        React.createElement(
-	                            'h5',
+	                            'h3',
 	                            null,
 	                            'RecipeBox'
 	                        )
@@ -241,7 +240,7 @@
 	                            ),
 	                            React.createElement(
 	                                'div',
-	                                { className: 'text-center' },
+	                                { className: 'thumbnail-footer' },
 	                                React.createElement(
 	                                    'a',
 	                                    { href: 'http://www.google.com' },
@@ -249,8 +248,8 @@
 	                                ),
 	                                React.createElement(
 	                                    'a',
-	                                    { href: '#', className: 'btn btn-default', role: 'button' },
-	                                    'Live'
+	                                    { href: '#' },
+	                                    'try'
 	                                )
 	                            )
 	                        )
@@ -333,7 +332,7 @@
 	                        ),
 	                        React.createElement(
 	                            'div',
-	                            { className: 'text-center' },
+	                            { className: 'thumbnail-footer' },
 	                            React.createElement(
 	                                'a',
 	                                { href: 'http://www.google.com' },
@@ -341,8 +340,8 @@
 	                            ),
 	                            React.createElement(
 	                                'a',
-	                                { href: '#', className: 'btn btn-default', role: 'button' },
-	                                'Live'
+	                                { href: '#' },
+	                                'try'
 	                            )
 	                        )
 	                    )
@@ -361,12 +360,11 @@
 	                    React.createElement(
 	                        'div',
 	                        { className: 'project-picture' },
-	                        React.createElement('div', { className: 'placeholder' })
-	                    ),
-	                    React.createElement(
-	                        'h5',
-	                        null,
-	                        'color-randomizer'
+	                        React.createElement(
+	                            'h3',
+	                            null,
+	                            'color-randomizer'
+	                        )
 	                    ),
 	                    React.createElement(
 	                        'div',
@@ -392,7 +390,7 @@
 	                        ),
 	                        React.createElement(
 	                            'div',
-	                            { className: 'text-center' },
+	                            { className: 'thumbnail-footer' },
 	                            React.createElement(
 	                                'a',
 	                                { href: 'https://github.com/mschultz4/color-randomizer' },
@@ -423,7 +421,7 @@
 	                        { className: 'caption' },
 	                        React.createElement(
 	                            'div',
-	                            { className: 'text-center thumbnail-footer' },
+	                            { className: 'thumbnail-footer' },
 	                            React.createElement(
 	                                'a',
 	                                { href: 'http://www.google.com' },
@@ -431,8 +429,8 @@
 	                            ),
 	                            React.createElement(
 	                                'a',
-	                                { href: '#', className: 'btn btn-default', role: 'button' },
-	                                'Live'
+	                                { href: '#' },
+	                                'try'
 	                            )
 	                        )
 	                    )
@@ -451,14 +449,18 @@
 	                    React.createElement(
 	                        'div',
 	                        { className: 'project-picture' },
-	                        React.createElement('div', { className: 'placeholder' })
+	                        React.createElement(
+	                            'h3',
+	                            null,
+	                            'labelr'
+	                        )
 	                    ),
 	                    React.createElement(
 	                        'div',
 	                        { className: 'caption' },
 	                        React.createElement(
 	                            'div',
-	                            { className: 'text-center' },
+	                            { className: 'thumbnail-footer' },
 	                            React.createElement(
 	                                'a',
 	                                { href: 'http://www.google.com' },
@@ -466,8 +468,8 @@
 	                            ),
 	                            React.createElement(
 	                                'a',
-	                                { href: '#', className: 'btn btn-default', role: 'button' },
-	                                'Live'
+	                                { href: '#' },
+	                                'npm'
 	                            )
 	                        )
 	                    )
@@ -489,7 +491,7 @@
 	                        { className: 'caption' },
 	                        React.createElement(
 	                            'div',
-	                            { className: 'text-center' },
+	                            { className: 'thumbnail-footer' },
 	                            React.createElement(
 	                                'a',
 	                                { href: 'http://www.google.com' },
@@ -497,8 +499,8 @@
 	                            ),
 	                            React.createElement(
 	                                'a',
-	                                { href: '#', className: 'btn btn-default', role: 'button' },
-	                                'Live'
+	                                { href: '#' },
+	                                'try'
 	                            )
 	                        )
 	                    )
@@ -19661,7 +19663,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n    padding: 30px;\n    font-family: consolas, Courier New, Courier, monospace;\n    background-color: white;\n}\n\nfooter {\n    padding: 10px;\n}\n\nimg {\n    width: 50%;\n}\n\nh5 {\n    color: dimgray;\n}\n\n.nav > li > a{\n  padding:3px; \n  border-radius: 0px;\n    cursor: auto;\n}\n\n.nav > li {\n  padding:3px; \n}\n\n#left-hand-nav {\n    position: fixed;\n    height: 100%;\n    width: 25%;\n    \n}\n\n#left-hand-nav a:hover{\n}\n\n.thumbnail {\n    background-color: white;\n    height: 450px;\n}\n\n .thumbnail-footer{\n     position: absolute;\n     bottom: 30px;\n     text-align: center;\n     width: 100%;\n }\n \n .thumbnail-footer a {\n     margin: 0px 5px;\n }\n \n.project-picture {\n    background-color: whitesmoke;\n    height: 35%;\n}\n\n@media (max-width: 767px) {\n    #left-hand-nav{\n        position:static;\n        width:auto;\n    }\n}\n\n@media (max-width: 979px) {\n    #left-hand-nav{\n        top:70px;\n    }\n}", ""]);
+	exports.push([module.id, "body {\n    padding: 30px;\n    font-family: consolas, Courier New, Courier, monospace;\n    background-color: white;\n}\n\nfooter {\n    padding: 10px;\n}\n\nimg {\n    width: 50%;\n}\n\nh5 {\n    color: dimgray;\n}\n\n.nav>li>a {\n    padding: 3px;\n    border-radius: 0px;\n    cursor: auto;\n    display: inline-block;\n}\n\n.nav>li {\n    padding: 3px;\n}\n\n.nav-pills>.active>a {\n    color: #337ab7;\n    background-color: #fff;\n}\n\n#left-hand-nav {\n    position: fixed;\n    height: 100%;\n    width: 25%;\n}\n\n#left-hand-nav a:hover {}\n\n.thumbnail {\n    background-color: white;\n    height: 450px;\n}\n\n.thumbnail-footer {\n    text-align: center;\n    width: 100%;\n}\n\n.thumbnail-footer a {\n    margin: 0px 5px;\n}\n\n.tech{\n    color: #428BCA;\n}\n\n.project-picture {\n    background-color: whitesmoke;\n    height: 40%;\n    text-align: center;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n@media (max-width: 767px) {\n    #left-hand-nav {\n        position: static;\n        width: auto;\n    }\n}\n\n@media (max-width: 979px) {\n    #left-hand-nav {\n        top: 70px;\n    }\n}\n", ""]);
 
 	// exports
 

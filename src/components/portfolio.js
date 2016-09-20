@@ -8,8 +8,7 @@ function Portfolio(){
         <Col md={6}>
         <div className="thumbnail span6">
             <div className="project-picture">
-                <i className="fa fa-book fa-3x" aria-hidden="true"></i>
-                <h5>RecipeBox</h5>
+                <h3>RecipeBox</h3>
             </div>
             <div className="caption">
                 <p>Learning App for storing recipes. Built with...</p>
@@ -33,11 +32,11 @@ function Portfolio(){
                             <span className="tech">Travis</span> for continuous builds
                         </li>
                     </ul>
-                    <div className="text-center">
+                    <div className="thumbnail-footer">
                         <a href="http://www.google.com">
                             <i className="fa fa-github fa-lg" aria-hidden="true"></i>
                         </a>
-                        <a href="#" className="btn btn-default" role="button">Live</a>
+                        <a href="#" >try</a>
                     </div>
                 </div>
             </div>
@@ -66,11 +65,11 @@ function Portfolio(){
                         <span className="tech">Travis</span> "for continuous builds"
                     </li>
                 </ul>
-                <div className="text-center">
+                <div className="thumbnail-footer">
                     <a href="http://www.google.com">
                         <i className="fa fa-github fa-lg" aria-hidden="true"></i>
                     </a>
-                    <a href="#" className="btn btn-default" role="button">Live</a>
+                    <a href="#">try</a>
                 </div>
             </div>
         </div>
@@ -80,15 +79,14 @@ function Portfolio(){
     <Col md={6}>
         <div className="thumbnail">
             <div className="project-picture">
-                <div className="placeholder"></div>
+                <h3>color-randomizer</h3>
             </div>
-            <h5>color-randomizer</h5>
             <div className="caption">
                 <p>npm package for generating random colors</p>
                 <p> to use
                  <code><pre>npm install color-randomizer</pre></code>
                 </p>
-                <div className="text-center">
+                <div className="thumbnail-footer">
                     <a href="https://github.com/mschultz4/color-randomizer">
                         <i className="fa fa-github fa-lg" aria-hidden="true"></i>
                     </a>
@@ -103,11 +101,11 @@ function Portfolio(){
                 <div className="placeholder"></div>
             </div>
             <div className="caption">
-                <div className="text-center thumbnail-footer">
+                <div className="thumbnail-footer">
                     <a href="http://www.google.com">
                         <i className="fa fa-github fa-lg" aria-hidden="true"></i>
                     </a>
-                    <a href="#" className="btn btn-default" role="button">Live</a>
+                    <a href="#" >try</a>
                 </div>
             </div>
         </div>
@@ -117,14 +115,14 @@ function Portfolio(){
     <Col md={6}>
         <div className="thumbnail">
             <div className="project-picture">
-                <div className="placeholder"></div>
+                <h3>labelr</h3>
             </div>
             <div className="caption">
-                <div className="text-center">
+                <div className="thumbnail-footer">
                     <a href="http://www.google.com">
                         <i className="fa fa-github fa-lg" aria-hidden="true"></i>
                     </a>
-                    <a href="#" className="btn btn-default" role="button">Live</a>
+                    <a href="#">npm</a>
                 </div>
             </div>
         </div>
@@ -136,11 +134,11 @@ function Portfolio(){
                 </div>
             </div>
             <div className="caption">
-                <div className="text-center">
+                <div className="thumbnail-footer">
                     <a href="http://www.google.com">
                         <i className="fa fa-github fa-lg" aria-hidden="true"></i>
                     </a>
-                    <a href="#" className="btn btn-default" role="button">Live</a>
+                    <a href="#" >try</a>
                 </div>
             </div>
         </div>
